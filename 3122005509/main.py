@@ -9,7 +9,6 @@ def read_file(file_path):
 def preprocess(text):
     # 使用jieba进行中文分词
     words = jieba.lcut(text)
-    print(words)
     return words
 
 def calculate_similarity(words1, words2):
